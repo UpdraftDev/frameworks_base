@@ -98,6 +98,12 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files := \
+    Quicksand-Bold.ttf \
+    Quicksand-Book.ttf \
+    Quicksand-Light.ttf \
+    Quicksand-Book-Italic \
+    Quicksand-Bold-Italic \
+    Quicksand-Light-italic \
     Roboto-Regular.ttf \
     Roboto-Bold.ttf \
     Roboto-Italic.ttf \

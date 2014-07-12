@@ -18,6 +18,7 @@
 -->
 <familyset>
 
+    <!-- Updraft fonts -->
     <family>
         <nameset>
             <name>sans-serif</name>
@@ -25,6 +26,31 @@
             <name>helvetica</name>
             <name>tahoma</name>
             <name>verdana</name>
+	    <name>quicksand</name>
+        </nameset>
+        <fileset>
+            <file>Quicksand-Book.ttf</file>
+            <file>Quicksand-Bold.ttf</file>
+            <file>Quicksand-Book-Italic.ttf</file>
+            <file>Quicksand-Bold-Italic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-light</name>
+	    <name>quicksand-light</name>
+        </nameset>
+        <fileset>
+            <file>Quicksand-Light.ttf</file>
+            <file>Quicksand-Light-Italic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-roboto</name>
+	    <name>roboto</name>
         </nameset>
         <fileset>
             <file>Roboto-Regular.ttf</file>
@@ -36,7 +62,8 @@
 
     <family>
         <nameset>
-            <name>sans-serif-light</name>
+            <name>sans-serif-roboto-light</name>
+	    <name>roboto-light</name>
         </nameset>
         <fileset>
             <file>Roboto-Light.ttf</file>

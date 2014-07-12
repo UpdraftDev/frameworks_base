@@ -48,3 +48,9 @@ PRODUCT_PACKAGES := \
     AndroidClock.ttf \
     AndroidClock_Highlight.ttf \
     AndroidClock_Solid.ttf \
+    Quicksand-Bold.ttf \
+    Quicksand-Book.ttf \
+    Quicksand-Light.ttf \
+    Quicksand-Book-Italic \
+    Quicksand-Bold-Italic \
+    Quicksand-Light-italic \
