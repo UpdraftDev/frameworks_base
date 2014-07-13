@@ -46,7 +46,7 @@ public class PlatLogoActivity extends Activity {
     int mCount;
     private boolean mIsSlim;
     final Handler mHandler = new Handler();
-    static final int BGCOLOR = 0xffed1d24;
+    static final int BGCOLOR = 0xff00b0d9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class PlatLogoActivity extends Activity {
         Typeface light = Typeface.create("sans-serif-light", Typeface.NORMAL);
 
         mContent = new FrameLayout(this);
-        mContent.setBackgroundColor(0xC0000000);
+        mContent.setBackgroundColor(0x00b0d900);
         
         final FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.WRAP_CONTENT,
