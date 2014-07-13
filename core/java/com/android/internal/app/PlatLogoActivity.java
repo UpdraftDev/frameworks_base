@@ -87,15 +87,13 @@ public class PlatLogoActivity extends Activity {
 
         final TextView tv = new TextView(this);
 
-        mIsSlim = SystemProperties.get("ro.slim.version") != null;
-
         if (light != null) tv.setTypeface(light);
         tv.setTextSize(30);
         tv.setPadding(p, p, p, p);
         tv.setTextColor(0xFFFFFFFF);
         tv.setGravity(Gravity.CENTER);
         tv.setTransformationMethod(new AllCapsTransformationMethod(this));
-        tv.setText((mIsSlim ? "SlimKAT " : "Android ") + Build.VERSION.RELEASE);
+        tv.setText("Updraft ") + Build.VERSION.RELEASE);
         tv.setVisibility(View.INVISIBLE);
 
         mContent.addView(bg);
